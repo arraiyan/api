@@ -11,3 +11,5 @@ aiohttp
 flask
 bs4
 cfscrape
+html5lib
+gunicorn
