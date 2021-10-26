@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def entry_point():
-    return jsonify({'holder':1552})
+    return jsonify(main.data())
 
 if __name__ == '__main__':
     app.run(debug=False)
